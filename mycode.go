@@ -14,10 +14,6 @@ func Add测试(a, b int) int {
 	return a + b
 }
 
-func 测试(a, b int) int {
-	return a + b
-}
-
 func getCurrentFunctionName() string {
 	// Caller 的参数为 0 表示当前函数，1 表示调用当前函数的函数，依此类推
 	pc, _, _, _ := runtime.Caller(1)
