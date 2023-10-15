@@ -10,7 +10,7 @@ import (
 )
 
 // AddNumbers is a simple function that adds two numbers.
-func AddNumbers(a, b int) int {
+func Add测试(a, b int) int {
 	return a + b
 }
 
